@@ -439,6 +439,8 @@ body {
     margin-left: 100px;
     color: #fff;
     cursor: pointer;
+    border: none;
+    backgroung-color: transperent;
 }
 
 .button__filter:hover {
