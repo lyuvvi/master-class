@@ -439,8 +439,6 @@ body {
     margin-left: 100px;
     color: #fff;
     cursor: pointer;
-    border: none;
-    backgroung-color: transperent;
 }
 
 .button__filter:hover {
@@ -1227,7 +1225,7 @@ body {
     }
 
     .filter-all {
-        margin-left: 10px;
+        margin-left: -40px;
     }
 
     .navbar__links {
@@ -1236,6 +1234,7 @@ body {
 
     .button__filter {
         font-size: 20px;
+        margin-left: 50px;
     }
 
     .section__way {
@@ -1544,6 +1543,15 @@ body {
     
     .application__input:not(:last-child) {
         margin-bottom: 20px;
+    }
+
+    .application-checkbox {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .checkbox {
+        margin-right: 5px;
     }
     
     .application__button {
